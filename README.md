@@ -1,12 +1,28 @@
-# React + Vite
+# MentisPrep ReactJS Coding Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This app fetches and displays a list of posts and allows users to create a new post using JSONPlaceholder APIs.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React
+- Axios
+- Vite (for fast bundling)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## Expanding the ESLint configuration
+1. Clone the repo or unzip the folder.
+2. Run the following commands:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+3.Open in browser at: http://localhost:5173
+
+## API Used
+GET: https://jsonplaceholder.typicode.com/posts
+POST: https://jsonplaceholder.typicode.com/posts
+
+## Folder Structure
+components/ - Contains modular UI components.
+services/ - Centralized API logic.
