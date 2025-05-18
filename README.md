@@ -21,8 +21,10 @@ npm run dev
 
 ## API Used
 GET: https://jsonplaceholder.typicode.com/posts
+
 POST: https://jsonplaceholder.typicode.com/posts
 
 ## Folder Structure
 components/ - Contains modular UI components.
+
 services/ - Centralized API logic.
